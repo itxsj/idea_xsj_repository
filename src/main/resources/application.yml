@@ -1,0 +1,12 @@
+#更改默认端口号
+server:
+  port: 8081
+  servlet:
+    context-path: /springBootDemo
+
+host_ip: 192.168.188.1
+host_name: xsj_computer
+
+userHost:
+  age: 19
+  name: zs
