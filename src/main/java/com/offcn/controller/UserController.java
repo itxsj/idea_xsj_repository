@@ -14,6 +14,7 @@ public class UserController {
 
     @RequestMapping("findOne/{id}")
     public User findOne(@PathVariable("id") Integer id){
+        System.out.println("idea测试Git");
         //构建user对象
         return new User(id,"zs"+id,new Date());
     }
