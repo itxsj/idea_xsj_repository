@@ -12,6 +12,8 @@ import java.util.Date;
 @RestController
 public class UserController {
 
+    private String userName;
+
     @RequestMapping("findOne/{id}")
     public User findOne(@PathVariable("id") Integer id){
         //构建user对象
